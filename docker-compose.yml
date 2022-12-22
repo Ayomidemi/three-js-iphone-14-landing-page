@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  prod:
+    container_name:  3d-apple
+    image:  3d-apple-image
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    command: yarn run start
+    ports:
+      - 3000:3000
+    networks:
+      - apple-network
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+
+networks:
+  apple-network:
