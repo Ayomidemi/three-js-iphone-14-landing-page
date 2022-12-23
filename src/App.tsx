@@ -1,8 +1,15 @@
 import React from 'react';
 import './App.css';
+import Quote from './sections/Quote';
+import { GlobalStyle } from './styles/GlobalStyles';
 
 function App() {
-  return <div className="App">Hello bitches</div>;
+  return (
+    <>
+      <GlobalStyle />
+      <Quote />
+    </>
+  );
 }
 
 export default App;
