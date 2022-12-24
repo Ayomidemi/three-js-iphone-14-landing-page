@@ -35,11 +35,6 @@ const TextContainer = styled.p`
       font-size: var(--fontxl);
     }
   }
-  @media screen and (max-width: 64em) {
-    span {
-      font-size: var(--fontxl);
-    }
-  }
   @media screen and (max-width: 48em) {
     span {
       font-size: var(--fontlg);
@@ -65,11 +60,6 @@ const TextContainer2 = styled.p`
     padding-right: 8px;
   }
   @media screen and (max-width: 70em) {
-    span {
-      font-size: var(--fontxl);
-    }
-  }
-  @media screen and (max-width: 64em) {
     span {
       font-size: var(--fontxl);
     }
