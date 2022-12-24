@@ -20,6 +20,6 @@ module.exports = {
         ignoreRestSiblings: true,
       },
     ],
-    'no-console': ['error', { allow: ['debug'] }],
+    // 'no-console': ['error', { allow: ['debug'] }],
   },
 };
