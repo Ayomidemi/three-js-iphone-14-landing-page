@@ -19,7 +19,7 @@ Variables:
  --fontBig: 7em; //88 px
  --fontxxxl: 5.5em; //88 px
  --fontxxl: 3.4375em; //55 px
- --fontxl: 2.75em; //44 px
+ --fontxl: 2.75em; //44 px 
  --fontlg: 1.9375em; //31 px
  --fontmd: 1.375em; //22 px
  --fontsm: 1.125em; //18 px

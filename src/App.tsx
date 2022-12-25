@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import BatterySection from './sections/BatterySection';
+import ColorSection from './sections/ColorSection';
 import DesignSection from './sections/DesignSection';
 import DisplaySection from './sections/DisplaySection';
 import HeroSection from './sections/HeroSection';
@@ -20,6 +21,7 @@ function App() {
       <DisplaySection />
       <ProcessorSection />
       <BatterySection />
+      <ColorSection />
     </>
   );
 }

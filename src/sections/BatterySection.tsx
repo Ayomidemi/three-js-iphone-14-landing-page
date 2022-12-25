@@ -84,8 +84,6 @@ const BatterySection = () => {
         opacity: 1,
       });
     });
-
-    // return () => {};
   }, []);
 
   return (
